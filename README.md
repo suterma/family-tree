@@ -33,7 +33,7 @@ sudo apt install graphviz
 
 ## Family DSL
 
-_family-tree_ uses a small family-tree language. It describes people and their relationships using a few simple rules.
+_family-tree_ uses a small domain specific language (DSL). It describes people and their relationships using a few simple rules.
 
 Example input (from `./examples/example.family`):
 
