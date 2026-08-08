@@ -59,7 +59,7 @@ Claire    <- Anton, Antoinette
 Emma       <- Bertrand, Sophie_Smith
 ```
 
-Lines starting with `#` are comments for convenience. It is disregarded by the parser.
+Lines starting with `#` are comments for convenience. They are disregarded by the parser.
 
 
 ### 1. Persons
