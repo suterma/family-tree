@@ -8,10 +8,10 @@
 # If path is a .family file, only that file is processed. 
 # If no path is given, all .family files in the current directory are processed. #
 #
-# 1. Uses the python script with the custom family DSL as input
-# 2. Produces a graphviz representation as a DOT file
-# 3. Tranforms the DOT file with GraphViz into an SVG file
-# 4. Postprocesses the SVG file for visual improvement
+# 1. Uses the family-tree.py script with the custom family DSL as input
+# 2. Produces a GraphViz representation as a DOT file
+# 3. Tranforms the GraphViz DOT file into an SVG graphic
+# 4. Postprocesses the SVG file with custom CSS for visual improvement
 
 # Stop when something goes wrong, including failures inside pipelines.
 set -euo pipefail
