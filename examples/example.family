@@ -1,0 +1,21 @@
+# Example family tree, using a custom DSL
+
+# Persons
+Anton (1950-2020)
+Antoinette (1952-)
+
+Bertrand (1978)
+Claire (1980)
+
+Sophie_Smith (1981)
+
+Emma (2008-)
+
+# Marriages
+Anton + Antoinette
+Bertrand + Sophie_Smith
+
+# Children
+Bertrand <- Anton, Antoinette
+Claire    <- Anton, Antoinette
+Emma       <- Bertrand, Sophie_Smith
